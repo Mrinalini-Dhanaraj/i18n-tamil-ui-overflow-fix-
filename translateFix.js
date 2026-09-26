@@ -1,3 +1,6 @@
+//Auto-fixes the configured section of a webpage after google-translated to Tamil,
+//and applies a shrink-then-wrap to the affected heading.
+
 (function() {
     setTimeout(() => {
         const title = document.querySelector('h3');
